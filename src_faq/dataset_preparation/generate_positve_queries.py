@@ -3,7 +3,7 @@ import ollama
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-def generate_positive_queries_with_phi3(positive_queries, num_queries=100, model_name="microsoft/Phi-3-mini-4k-instruct", hf_token="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"):
+def generate_positive_queries_with_phi3(positive_queries, num_queries=100, model_name="microsoft/Phi-3-mini-4k-instruct", hf_token=""):
     """
     Generates semantically similar queries for a given set of positive queries using Phi-3 model.
 
